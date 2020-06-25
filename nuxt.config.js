@@ -1,5 +1,15 @@
 
 export default {
+  /* Layout Transitions */
+  layoutTransition: {
+    name: "layout",
+    mode: "out-in"
+  },
+  /* Page Transitions */
+  pageTransition: {
+    name: "default",
+    mode: ""
+  },
   mode: 'universal',
   /*
   ** Headers of the page
@@ -23,6 +33,7 @@ export default {
   ** Global CSS
   */
   css: [
+    '~/assets/css/main.css'
   ],
   /*
   ** Plugins to load before mounting the App
