@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav id="header" class="w-full z-30 top-0 py-1 bg-white">
+    <nav id="header" class="w-full z-30 top-0 py-1 bg-white shadow-md">
       <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 px-6 py-3">
         <label for="menu-toggle" class="cursor-pointer md:hidden block">
           <svg class="fill-current text-gray-900"
@@ -18,15 +18,15 @@
           <nav>
             <ul class="md:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-0">
               <li>
-                <NuxtLink class="text-gray-900 hover:text-red-700 font-bold transition-colors duration-500 ease-in-out uppercase inline-block no-underline hover:text-black py-2 px-4"
+                <NuxtLink class="text-gray-900 hover:text-primary active:text-primary font-bold transition-colors duration-500 ease-in-out uppercase inline-block no-underline py-2 px-4"
                   to="/about">About Me</NuxtLink>
               </li>
               <li>
-                <NuxtLink class="text-gray-900 hover:text-red-700 font-bold transition-colors duration-500 ease-in-out uppercase inline-block no-underline hover:text-black py-2 px-4"
+                <NuxtLink class="text-gray-900 hover:text-primary active:text-primary font-bold transition-colors duration-500 ease-in-out uppercase inline-block no-underline py-2 px-4"
                   to="/services">Services</NuxtLink>
               </li>
               <li>
-                <NuxtLink class="text-gray-900 hover:text-red-700 font-bold transition-colors duration-500 ease-in-out uppercase inline-block no-underline hover:text-black py-2 px-4"
+                <NuxtLink class="text-gray-900 hover:text-primary active:text-primary font-bold transition-colors duration-500 ease-in-out uppercase inline-block no-underline py-2 px-4"
                   to="/mywork">My Work</NuxtLink>
               </li>
             </ul>
@@ -41,8 +41,7 @@
         </div>
 
         <div class="flex items-center" id="nav-content">
-          <a href="#"
-            class="inline-block text-sm px-4 py-2 leading-none border border-gray-900 hover:border-red-700 rounded text-gray-900  hover:text-red-700 transition-colors duration-500 ease-in-out mt-4 lg:mt-0">Get a Quote</a>
+          <NuxtLink to="/hireme" class="inline-block text-md uppercase px-4 py-2 leading-none border border-primary hover:border-gray-900 rounded text-primary font-bold hover:text-gray-900 transition-colors duration-500 ease-in-out mt-4 lg:mt-0">Hire Me</NuxtLink>
         </div>
       </div>
     </nav>

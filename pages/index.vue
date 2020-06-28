@@ -1,5 +1,7 @@
 <template>
   <div>
+    <TopHeader />
+    <Slider />
     <section class="bg-white py-8">
       <div class="container py-8 px-6 mx-auto">
         <p class="uppercase tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl mb-8">Welcome</p>
@@ -14,11 +16,15 @@
 </template>
 
 <script>
+import TopHeader from "~/components/TopHeader.vue";
+import Slider from "~/components/Slider.vue";
+import Footer from "~/components/Footer.vue";
 export default {
-  components: {
-
-  },
-  layout: 'homelayout'
+    components: {
+      TopHeader,
+      Slider,
+      Footer
+    }
 };
 </script>
 

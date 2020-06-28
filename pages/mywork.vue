@@ -1,6 +1,7 @@
 <template>
   <div>
-    <section class="bg-white py-8">
+    <TopHeader />
+    <section class="py-8">
       <div class="container py-8 px-6 mx-auto">
         <p class="uppercase tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl mb-8">My Work</p>
         <p class="mb-8">
@@ -9,12 +10,19 @@
         </p>
       </div>
     </section>   
+    <Footer />
   </div>
 </template>
 
 <script>
+import TopHeader from "~/components/TopHeader.vue";
+import Footer from "~/components/Footer.vue";
+
   export default {
-    layout: 'sublayout'
+    components: {
+      TopHeader,
+      Footer
+    },
   }
 </script>
 

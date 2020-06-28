@@ -1,14 +1,7 @@
 
 export default {
-  /* Layout Transitions */
-  layoutTransition: {
-    name: "layout",
-    mode: "out-in"
-  },
-  /* Page Transitions */
-  pageTransition: {
-    name: "default",
-    mode: ""
+  router: {
+    linkActiveClass: 'nav-active'
   },
   mode: 'universal',
   /*

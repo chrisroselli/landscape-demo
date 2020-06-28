@@ -1,20 +1,31 @@
 <template>
   <div>
-    <section class="bg-white py-8">
-      <div class="container py-8 px-6 mx-auto">
-        <p class="uppercase tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl mb-8">About Me</p>
-        <p class="mb-8">
-          Lorem ipsum dolor sit amet, consectetur
-          <a href="#">random link</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vel risus commodo viverra maecenas accumsan lacus vel facilisis volutpat. Vitae aliquet nec ullamcorper sit. Nullam eget felis eget nunc lobortis mattis aliquam. In est ante in nibh mauris. Egestas congue quisque egestas diam in. Facilisi nullam vehicula ipsum a arcu. Nec nam aliquam sem et tortor consequat. Eget mi proin sed libero enim sed faucibus turpis in. Hac habitasse platea dictumst quisque. In aliquam sem fringilla ut. Gravida rutrum quisque non tellus orci ac auctor augue mauris. Accumsan lacus vel facilisis volutpat est velit egestas dui id. At tempor commodo ullamcorper a. Volutpat commodo sed egestas egestas fringilla. Vitae congue eu consequat ac.
-        </p>
-      </div>
-    </section>   
+        <TopHeader />
+<div class="flex flex-wrap m-10">
+  <div class="w-full md:w-1/4 px-4">
+    <img src="~/assets/img/profile-pic.jpg" class="w-screen rounded-lg" alt="profile picture">
+  </div>
+  <div class="w-full md:w-3/4 px-2 mt-4 text-center sm:text-left">
+    <p class="text-2xl leading-none">Chris Roselli</p>
+    <p class="text-l text-primary">Web Developer</p>
+    <p class="text-base mt-4">I have been working in web development for over 10 years. I also have a background in graphic design and photographer. I started my journey at Central Connecticut State University with a BA in Graphic/Information Design. My years at Central where some of my favorite. I was fortunate to be offered the opportunity to work within the department, where I gained valuable experience in both design and technology as their lead technician. After graduating, I then held several positions spanning from print to web design. Eventually I landed on web development as my true passion and have been building my skill set in this amazing digital realm ever since.</p>
+    <p class="mt-4">I have been a New Englander all my life and am a resident of Cheshire, CT. I enjoy running, especially on our beautiful Heritage Canal Trail. My family owns a small hobby farm in Colchester, CT raising everything from Nigerian goats to miniature donkeys.</p>
+  </div>
+</div> 
+    <Footer />
   </div>
 </template>
 
 <script>
+import TopHeader from "~/components/TopHeader.vue";
+import Footer from "~/components/Footer.vue";
+
   export default {
-    layout: 'sublayout'
+    transition: 'page',
+    components: {
+      TopHeader,
+      Footer
+    },
   }
 </script>
 
