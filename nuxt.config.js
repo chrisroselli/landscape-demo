@@ -18,23 +18,6 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  purgeCSS: {
-    mode: 'postcss',
-    extractors: [
-      {
-        extractor: class {
-          static extract(content) {
-            return content.match(/[A-Za-z0-9-_/:]*[A-Za-z0-9-_/]+/g) || [];
-          }
-        }
-      }
-    ],
-    whitelistPatterns: [
-      /-(leave|enter|appear)(|-(to|from|active))$/,
-      /^(?!(|.*?:)cursor-move).+-move$/,
-      /^nuxt-link(|-exact)-active$/
-    ]
-  },
   /*
   ** Customize the progress-bar color
   */
