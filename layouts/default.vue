@@ -1,9 +1,22 @@
 <template>
   <div>
+    <TopHeader />
     <nuxt />
+    <Footer />
   </div>
 </template>
 
+
+<script>
+import TopHeader from "~/components/TopHeader.vue";
+import Footer from "~/components/Footer.vue";
+export default {
+    components: {
+      TopHeader,
+      Footer
+    }
+};
+</script>
 <style>
   html {
     font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',

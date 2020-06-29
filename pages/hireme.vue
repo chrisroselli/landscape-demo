@@ -1,6 +1,5 @@
 <template>
   <div>
-        <TopHeader />
 <div class="flex flex-wrap m-10">
   <div class="flex-auto lg:flex-initial m-auto w-1/2">
   <p class="uppercase tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl mb-8">Hire Me</p>
@@ -24,15 +23,8 @@
 </template>
 
 <script>
-import TopHeader from "~/components/TopHeader.vue";
-import Footer from "~/components/Footer.vue";
-
   export default {
-    transition: 'page',
-    components: {
-      TopHeader,
-      Footer
-    },
+
   }
 </script>
 

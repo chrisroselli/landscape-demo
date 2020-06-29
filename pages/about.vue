@@ -1,6 +1,5 @@
 <template>
   <div>
-        <TopHeader />
 <div class="flex flex-wrap m-10">
   <div class="w-full md:w-1/4 px-4">
     <img src="~/assets/img/profile-pic.jpg" class="w-screen rounded-lg" alt="profile picture">
@@ -12,20 +11,11 @@
     <p class="mt-4">I have been a New Englander all my life and am a resident of Cheshire, CT. I enjoy running, especially on our beautiful Heritage Canal Trail. My family owns a small hobby farm in Colchester, CT raising everything from Nigerian goats to miniature donkeys.</p>
   </div>
 </div> 
-    <Footer />
   </div>
 </template>
 
 <script>
-import TopHeader from "~/components/TopHeader.vue";
-import Footer from "~/components/Footer.vue";
-
   export default {
-    transition: 'page',
-    components: {
-      TopHeader,
-      Footer
-    },
   }
 </script>
 
