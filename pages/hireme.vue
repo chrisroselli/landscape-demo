@@ -1,6 +1,6 @@
 <template>
   <div>
-<div class="flex flex-wrap m-10">
+<div class="flex min-h-screen flex-wrap m-10">
   <div class="flex-auto lg:flex-initial m-auto w-1/2">
   <p class="uppercase tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl mb-8">Hire Me</p>
     <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">

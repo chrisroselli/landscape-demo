@@ -19,6 +19,10 @@
             <ul class="md:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-0">
               <li>
                 <NuxtLink class="text-gray-900 hover:text-primary active:text-primary font-bold transition-colors duration-500 ease-in-out uppercase inline-block no-underline py-2 px-4"
+                  to="/">Home</NuxtLink>
+              </li>              
+              <li>
+                <NuxtLink class="text-gray-900 hover:text-primary active:text-primary font-bold transition-colors duration-500 ease-in-out uppercase inline-block no-underline py-2 px-4"
                   to="/about">About Me</NuxtLink>
               </li>
               <li>

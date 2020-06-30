@@ -1,6 +1,6 @@
 <template>
   <div>
-<div class="flex flex-wrap m-10">
+<div class="flex min-h-screen flex-wrap m-10">
   <div class="w-full md:w-1/4 px-4">
     <img src="~/assets/img/profile-pic.jpg" class="w-screen rounded-lg" alt="profile picture">
   </div>
