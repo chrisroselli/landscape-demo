@@ -3,18 +3,14 @@
   <footer>
         <div class="flex justify-center h-full bg-footergray" id="menu">
           <nav>
-            <ul class="md:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-0">
-              <li>
-                <NuxtLink class="text-gray-900 hover:text-primary active:text-primary transition-colors duration-500 ease-in-out inline-block no-underline py-2 px-4"
-                  to="/">Home</NuxtLink>
-              </li>               
+            <ul class="md:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-0">             
               <li>
                 <NuxtLink class="text-gray-900 hover:text-primary active:text-primary transition-colors duration-500 ease-in-out inline-block no-underline py-2 px-4"
                   to="/about">About Me</NuxtLink>
               </li>
               <li>
                 <NuxtLink class="text-gray-900 hover:text-primary active:text-primary transition-colors duration-500 ease-in-out inline-block no-underline py-2 px-4"
-                  to="/services">Services</NuxtLink>
+                  to="/myservices">My Services</NuxtLink>
               </li>
               <li>
                 <NuxtLink class="text-gray-900 hover:text-primary active:text-primary transition-colors duration-500 ease-in-out inline-block no-underline py-2 px-4"

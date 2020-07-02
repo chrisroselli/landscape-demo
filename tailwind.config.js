@@ -22,6 +22,9 @@ module.exports = {
         primary: '#c53030',
         secondary: '#1a202c',
         footergray: '#ececec'
+      },
+      height: {
+        'line': '.05rem'
       }
     }
   },
