@@ -11,7 +11,8 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "vueperslides": "^2.10.2"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^2.0.0"

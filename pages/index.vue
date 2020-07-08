@@ -1,6 +1,13 @@
 <template>
   <div>
-    <Slider />
+<vueper-slides :touchable="false">
+  <vueper-slide
+    v-for="(slide, i) in slides"
+    :key="i"
+    :image="slide.image"
+    :title="slide.title"
+    :content="slide.content" />
+</vueper-slides>
     <div class="flex min-h-screen flex-wrap m-10">
         <p class="uppercase tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl mb-8">Welcome</p>
         <p class="mb-8">
@@ -12,11 +19,26 @@
 </template>
 
 <script>
-import Slider from "~/components/Slider.vue";
+import { VueperSlides, VueperSlide } from 'vueperslides'
+import 'vueperslides/dist/vueperslides.css'
 export default {
-    components: {
-      Slider
-    }
+    components: { VueperSlides, VueperSlide },
+    data: () => ({
+    slides: [
+      {
+        title: 'Slide 1',
+        content: 'Photo by Max Rive',
+        // You can also provide a URL for the image.
+        image: require('@/assets/img/profile-pic.jpg')
+      },
+      {
+        title: 'Slide 2',
+        content: 'Photo by Max Rive',
+        // You can also provide a URL for the image.
+        image: require('@/assets/img/profile-pic.jpg')
+      },
+    ]
+  })
 };
 </script>
 
