@@ -8,7 +8,7 @@
     <div class="flex min-h-screen flex-wrap m-10">
       <div class="flex-auto lg:flex-initial mx-auto">
          <ValidationObserver v-slot="{ handleSubmit }">
-          <form @submit.prevent="handleSubmit(onSubmit)" name="contact-form" action="/confirmation" method="post" class="w-full max-w-lg" netlify netlify-honeypot="bot-field">
+          <form ref="form" @submit.prevent="handleSubmit(onSubmit)" name="contact-form" action="/confirmation" method="post" class="w-full max-w-lg" netlify netlify-honeypot="bot-field">
           <input type="hidden" name="form-name" value="contact-form" />
             <div class="flex flex-wrap -mx-3 mb-4">
               <div class="w-full md:w-1/2 px-3 mb-4 md:mb-0">
@@ -46,7 +46,7 @@
                 <label class="block uppercase tracking-wide text-gray-700 text-sm font-bold mb-2" for="company">
                   Company Name
                 </label>
-                 <ValidationProvider name="Company Name" rules="required|alpha" v-slot="{ errors }">
+                 <ValidationProvider name="Company Name" rules="required|alpha_spaces" v-slot="{ errors }">
                 <input v-model="companyName" name="company" class="appearance-none block w-full bg-footergray text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="company" type="text">
                 <span>{{ errors[0] }}</span>
                 </ValidationProvider>
@@ -101,7 +101,7 @@ import { ValidationObserver, ValidationProvider } from "vee-validate";
     }),
     methods: {
       onSubmit () {
-        alert('Form has been submitted!');
+         this.$refs.form.submit()
       }
     },
     components: {
