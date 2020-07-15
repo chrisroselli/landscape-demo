@@ -73,7 +73,7 @@
             </div>
             <label class="block uppercase tracking-wide text-gray-700 text-sm font-bold mb-2" for="message">
               <span class="text-gray-700">Please provide a description of your project:</span>
-              <ValidationProvider name="Message" rules="required|alpha" v-slot="{ errors }">
+              <ValidationProvider name="Message" rules="required" v-slot="{ errors }">
               <textarea v-model="message" name="message" class="form-textarea mt-1 appearance-none block w-full bg-footergray text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" rows="10"></textarea>
               <span>{{ errors[0] }}</span>
               </ValidationProvider>
