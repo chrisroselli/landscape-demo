@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "nuxt": "^2.0.0",
+    "vee-validate": "^3.3.7",
     "vueperslides": "^2.10.2"
   },
   "devDependencies": {
