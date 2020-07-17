@@ -8,7 +8,7 @@
     <div class="flex justify-center content-center">
       <div class="px-4 py-2 m-2">
         <div class="max-w-sm rounded overflow-hidden shadow-lg">
-          <img class="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains">
+          <img class="w-full" src="~/assets/img/web-design.jpg" alt="Sunset in the mountains">
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Web Design</div>
             <p class="text-gray-700 text-base">
@@ -24,7 +24,7 @@
           </div>
           <div class="px-4 py-2 m-2">
         <div class="max-w-sm rounded overflow-hidden shadow-lg">
-          <img class="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains">
+          <img class="w-full" src="~/assets/img/web-development.jpg" alt="Sunset in the mountains">
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Web Development</div>
             <p class="text-gray-700 text-base">
@@ -40,7 +40,7 @@
           </div>
           <div class="px-4 py-2 m-2">
         <div class="max-w-sm rounded overflow-hidden shadow-lg">
-          <img class="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains">
+          <img class="w-full" src="~/assets/img/web-hosting.jpg" alt="Sunset in the mountains">
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Web Hosting</div>
             <p class="text-gray-700 text-base">
