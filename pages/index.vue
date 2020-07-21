@@ -8,7 +8,7 @@
     :title="slide.title"
     :content="slide.content" />
 </vueper-slides>
-    <div class="flex min-h-screen flex-wrap m-10">
+    <div class="flex flex-wrap m-10">
         <p class="uppercase tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl mb-8">Welcome</p>
         <p class="mb-8">
           Lorem ipsum dolor sit amet, consectetur
@@ -26,8 +26,8 @@ export default {
     data: () => ({
     slides: [
       {
-        title: 'Slide 1',
-        content: 'Photo by Max Rive',
+        title: 'Web Design & Development',
+        content: 'Let\'s build a website that elevates your business',
         // You can also provide a URL for the image.
         image: require('@/assets/img/profile-pic.jpg')
       },
@@ -43,5 +43,14 @@ export default {
 </script>
 
 <style>
-
+.vueperslide__title {
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: #c53030;
+  font-weight: 700;
+  
+}
+.vueperslide__content {
+  font-size: 2rem;
+}
 </style>
