@@ -1,6 +1,6 @@
 <template>
   <div>
-<vueper-slides :touchable="false">
+<vueper-slides :touchable="false" :bullets="false">
   <vueper-slide
     v-for="(slide, i) in slides"
     :key="i"
@@ -12,7 +12,7 @@
         <p class="uppercase tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl mb-8">Welcome</p>
         <p class="mb-8">
           Lorem ipsum dolor sit amet, consectetur
-          <a href="#">random link</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vel risus commodo viverra maecenas accumsan lacus vel facilisis volutpat. Vitae aliquet nec ullamcorper sit. Nullam eget felis eget nunc lobortis mattis aliquam. In est ante in nibh mauris. Egestas congue quisque egestas diam in. Facilisi nullam vehicula ipsum a arcu. Nec nam aliquam sem et tortor consequat. Eget mi proin sed libero enim sed faucibus turpis in. Hac habitasse platea dictumst quisque. In aliquam sem fringilla ut. Gravida rutrum quisque non tellus orci ac auctor augue mauris. Accumsan lacus vel facilisis volutpat est velit egestas dui id. At tempor commodo ullamcorper a. Volutpat commodo sed egestas egestas fringilla. Vitae congue eu consequat ac.
+          <a href="#">random link</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vel risus commodo viverra maecenas accumsan lacus vel facilisis volutpat. Vitae aliquet nec ullamcorper sit. Nullam eget felis eget nunc lobortis mattis aliquam. In est ante in nibh mauris. Egestas congue quisque egestas diam in. Facilisi nullam vehicula ipsum a arcu. Nec nam aliquam sem et tortor consequat. Eget mi proin sed libero enim sed faucibus turpis in. Hac habitasse platea dictumst quisque. In aliquam sem fringilla ut. Gravida rutrum quisque non tellus orci ac auctor augue mauris. Accumsan lacus vel facilisis volutpat est velit egestas dui id. At tempor commodo ullamcorper a. Volutpat commodo sed egestas egestas fringilla. Vitae congue eu consequat ac. 
         </p>
     </div>       
   </div>
@@ -29,7 +29,7 @@ export default {
         title: 'Web Design & Development',
         content: 'Let\'s build a website that elevates your business',
         // You can also provide a URL for the image.
-        image: require('@/assets/img/profile-pic.jpg')
+        image: require('@/assets/img/slide1.jpg')
       },
       {
         title: 'Slide 2',
@@ -44,13 +44,20 @@ export default {
 
 <style>
 .vueperslide__title {
-  font-size: 4rem;
+  font-size: 3.5rem;
   text-transform: uppercase;
   color: #c53030;
-  font-weight: 700;
-  
+  font-weight: 700;  
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: .75rem 1rem;
 }
 .vueperslide__content {
-  font-size: 2rem;
+  font-size: 1.75rem;
+  background-color: rgba(218, 51, 51, 0.85);
+  padding: .75rem 1rem;
+  font-weight: bold;
+  bottom:.75rem;
+  position: relative;
 }
+.vueperslides__arrow {color: #c53030}
 </style>
