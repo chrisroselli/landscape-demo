@@ -7,36 +7,60 @@
     </div>
     <div class="flex justify-center content-center">
       <div class="max-w-xs bg-white shadow-lg rounded-lg overflow-hidden my-10 mx-5">
-        <div class="px-4 py-2">
-          <h1 class="text-gray-900 font-bold text-3xl uppercase">NIKE AIR</h1>
-          <p class="text-gray-600 text-sm mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos quidem sequi illum facere recusandae voluptatibus</p>
+        <img class="h-56 w-full mt-2" src="~/assets/img/my-work/thinkdaily-my-work.jpg" alt="Think Daily">
+        <div class="px-4 py-2 bg-footergray border-t-2 border-black">
+          <h1 class="text-primary font-bold text-2xl uppercase">Think Daily</h1>
+          <p class="text-black text-sm mt-1">Larry Janesky's daily message intended to motivate, educate, and inspire.</p>
         </div>
-        <img class="h-56 w-full object-cover mt-2" src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="NIKE AIR">
-        <div class="flex items-center justify-between px-4 py-2 bg-gray-900">
-          <h1 class="text-gray-200 font-bold text-xl">$129</h1>
-          <button class="px-3 py-1 bg-gray-200 text-sm text-gray-900 font-semibold rounded">Add to card</button>
-        </div>
-      </div>
-      <div class="max-w-xs bg-white shadow-lg rounded-lg overflow-hidden my-10 mx-5">
-        <div class="px-4 py-2">
-          <h1 class="text-gray-900 font-bold text-3xl uppercase">NIKE AIR</h1>
-          <p class="text-gray-600 text-sm mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos quidem sequi illum facere recusandae voluptatibus</p>
-        </div>
-        <img class="h-56 w-full object-cover mt-2" src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="NIKE AIR">
-        <div class="flex items-center justify-between px-4 py-2 bg-gray-900">
-          <h1 class="text-gray-200 font-bold text-xl">$129</h1>
-          <button class="px-3 py-1 bg-gray-200 text-sm text-gray-900 font-semibold rounded">Add to card</button>
+        <div class="flex items-center justify-between px-4 py-2 bg-footergray">
+          <h1 class="text-black font-bold text-lg">Wordpress Website</h1>
+          <a href="https://www.thinkdaily.com/" target="_blank" class="px-3 py-1 bg-primary text-sm text-white font-semibold rounded">Visit</a>
         </div>
       </div>
       <div class="max-w-xs bg-white shadow-lg rounded-lg overflow-hidden my-10 mx-5">
-        <div class="px-4 py-2">
-          <h1 class="text-gray-900 font-bold text-3xl uppercase">NIKE AIR</h1>
-          <p class="text-gray-600 text-sm mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos quidem sequi illum facere recusandae voluptatibus</p>
+        <img class="h-56 w-full mt-2" src="~/assets/img/my-work/krs-my-work.jpg" alt="Klaus Roofing Systems">
+        <div class="px-4 py-2 bg-footergray border-t-2 border-gray-600">
+          <h1 class="text-primary font-bold text-2xl uppercase">Klaus Roofing Systems</h1>
+          <p class="text-black text-sm mt-1">Klaus Roofing Systems represents the largest roofing contract network in New England.</p>
         </div>
-        <img class="h-56 w-full object-cover mt-2" src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="NIKE AIR">
-        <div class="flex items-center justify-between px-4 py-2 bg-gray-900">
-          <h1 class="text-gray-200 font-bold text-xl">$129</h1>
-          <button class="px-3 py-1 bg-gray-200 text-sm text-gray-900 font-semibold rounded">Add to card</button>
+        <div class="flex items-center justify-between px-4 py-2 bg-footergray">
+          <h1 class="text-black font-bold text-lg">CMS Website</h1>
+          <a href="https://www.klausroofingsystems.com/" target="_blank" class="px-3 py-1 bg-primary text-sm text-white font-semibold rounded">Visit</a>
+        </div>
+      </div>
+      <div class="max-w-xs bg-white shadow-lg rounded-lg overflow-hidden my-10 mx-5">
+        <img class="h-56 w-full mt-2" src="~/assets/img/my-work/eqam-my-work.jpg" alt="EqAm Magazine">
+        <div class="px-4 py-2 bg-footergray border-t-2 border-gray-600">
+          <h1 class="text-primary font-bold text-2xl uppercase">EqAm Magazine</h1>
+          <p class="text-black text-sm mt-1">Equine America magazine delivers update news all things equestrian.  </p>
+        </div>
+        <div class="flex items-center justify-between px-4 py-2 bg-footergray">
+          <h1 class="text-black font-bold text-lg">Wordpress Website</h1>
+          <a href="https://www.eq-am.com/" target="_blank" class="px-3 py-1 bg-primary text-sm text-white font-semibold rounded">Visit</a>
+        </div>
+      </div>
+    </div> 
+    <div class="flex justify-center content-center">
+      <div class="max-w-xs bg-white shadow-lg rounded-lg overflow-hidden my-10 mx-5">
+        <img class="h-56 w-full mt-2" src="~/assets/img/my-work/ownersmeeting-my-work.jpg" alt="Think Daily">
+        <div class="px-4 py-2 bg-footergray border-t-2 border-black">
+          <h1 class="text-primary font-bold text-2xl uppercase">Owner's Club</h1>
+          <p class="text-black text-sm mt-1">Annual business owners conference information site.</p>
+        </div>
+        <div class="flex items-center justify-between px-4 py-2 bg-footergray">
+          <h1 class="text-black font-bold text-lg">CMS Website</h1>
+          <a href="https://www.ourownersmeeting.com/welcome.html" target="_blank" class="px-3 py-1 bg-primary text-sm text-white font-semibold rounded">Visit</a>
+        </div>
+      </div>
+      <div class="max-w-xs bg-white shadow-lg rounded-lg overflow-hidden my-10 mx-5">
+        <img class="h-56 w-full mt-2" src="~/assets/img/my-work/krs-signature-my-work.jpg" alt="Klaus Roofing Systems">
+        <div class="px-4 py-2 bg-footergray border-t-2 border-gray-600">
+          <h1 class="text-primary font-bold text-2xl uppercase">KRS Signature App</h1>
+          <p class="text-black text-sm mt-1">Signature generator for employee's email client signatures.</p>
+        </div>
+        <div class="flex items-center justify-between px-4 py-2 bg-footergray">
+          <h1 class="text-black font-bold text-lg">Web App</h1>
+          <a href="https://bs-production.github.io/klaus-roofing-systems-signature-generator/" target="_blank" class="px-3 py-1 bg-primary text-sm text-white font-semibold rounded">Visit</a>
         </div>
       </div>
     </div> 

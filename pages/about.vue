@@ -12,8 +12,8 @@
       <div class="w-full md:w-3/4 px-2 mt-4 text-center sm:text-left">
         <p class="text-2xl leading-none">Chris Roselli</p>
         <p class="text-l text-primary">Web Developer</p>
-        <p class="text-base mt-4">I have been working in web development for over 10 years. I also have a background in graphic design and photographer. I started my journey at Central Connecticut State University with a BA in Graphic/Information Design. My years at Central where some of my favorite. I was fortunate to be offered the opportunity to work within the department, where I gained valuable experience in both design and technology as their lead technician. After graduating, I then held several positions spanning from print to web design. Eventually I landed on web development as my true passion and have been building my skill set in this amazing digital realm ever since.</p>
-        <p class="mt-4">I have been a New Englander all my life and am a resident of Cheshire, CT. I enjoy running, especially on our beautiful Heritage Canal Trail. My family owns a small hobby farm in Colchester, CT raising everything from Nigerian goats to miniature donkeys.</p>
+        <p class="text-base mt-4">Hey I'm Chris and I've been working in web development for over 10 years now. I also have a background in graphic design and photographer. My journey started at Central Connecticut State University with a BA in Graphic/Information Design. While there, I was fortunate to be offered the opportunity to work within the department, where I gained valuable experience in both design and technology. After graduating, I held several positions spanning from print to web design. Eventually I landed on web development as my true passion and have been building my skill set in this amazing digital realm ever since.</p>
+        <p class="mt-4">I have been a New Englander all my life and am a resident of Cheshire, CT. I enjoy running, especially on our beautiful Heritage Canal Trail. My family owns a small hobby farm in Colchester, CT where they raise everything from Nigerian goats to miniature donkeys.</p>
       </div>
     </div> 
   </div>
