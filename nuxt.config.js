@@ -8,7 +8,7 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: 'chrisroselli.com - Web Development',
+    title: 'chrisroselli.com - Web Design and Development',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },

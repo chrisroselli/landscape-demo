@@ -1,16 +1,16 @@
 <template>
   <div>
-<vueper-slides autoplay :bullets="false">
+<vueper-slides :bullets="false" :touchable="false">
   <vueper-slide
     v-for="(slide, i) in slides"
     :key="i"
     :image="slide.image"
     :title="slide.title"
     :content="slide.content"
-    :duration="3000" />
+    :duration="3500" />
 </vueper-slides>
-    <div class="mx-40 my-10 text-center">
-        <p class="uppercase font-bold text-black text-xl mb-2">Specializing in web design and development for small businesses</p>
+    <div class="mx-4 md:mx-20 lg:mx-40 my-10 text-center">
+        <p class="capitalize font-bold text-primary text-2xl mb-2">Specializing in web design and development for small businesses</p>
         <p class="mb-8">
           My passion is to create new online experiences for small businesses. Wether we're starting from scratch or reimagining your existing website, together we will conceptualize what your ideal web presence should look and function like.
         </p>
@@ -58,4 +58,18 @@ export default {
   position: relative;
 }
 .vueperslides__arrow {color: #c53030}
+@media only screen and (max-width: 640px) {
+  .vueperslide__title {
+    font-size: 1.25rem;
+  }
+  .vueperslide__content {
+    font-size: 1rem;
+  }
+  .vueperslides__parallax-wrapper {
+    height: 300px;
+  }
+  .vueperslides__arrows {
+    display: none;
+  }
+}
 </style>
