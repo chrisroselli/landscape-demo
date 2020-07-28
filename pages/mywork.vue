@@ -5,7 +5,7 @@
       <div class="w-auto text-center"><p>My Work</p></div>
       <div class="w-64 py-4 mx-5"><hr class="h-line text-black bg-black" /></div>
     </div>
-    <div class="flex justify-center content-center">
+    <div class="flex flex-wrap justify-center content-center">
       <div class="max-w-xs bg-white shadow-lg rounded-lg overflow-hidden my-10 mx-5">
         <img class="h-56 w-full mt-2" src="~/assets/img/my-work/thinkdaily-my-work.jpg" alt="Think Daily">
         <div class="px-4 py-2 bg-footergray border-t-2 border-black">
@@ -40,7 +40,7 @@
         </div>
       </div>
     </div> 
-    <div class="flex justify-center content-center">
+    <div class="flex flex-wrap justify-center content-center">
       <div class="max-w-xs bg-white shadow-lg rounded-lg overflow-hidden my-10 mx-5">
         <img class="h-56 w-full mt-2" src="~/assets/img/my-work/ownersmeeting-my-work.jpg" alt="Think Daily">
         <div class="px-4 py-2 bg-footergray border-t-2 border-black">

@@ -5,7 +5,7 @@
       <div class="w-auto text-center"><p>My Services</p></div>
       <div class="w-64 py-4 mx-5"><hr class="h-line text-black bg-black" /></div>
     </div>
-    <div class="flex justify-center content-center">
+    <div class="flex flex-wrap justify-center content-center">
       <div class="px-4 py-2 m-2">
         <div class="max-w-sm rounded overflow-hidden shadow-lg">
           <img class="w-full" src="~/assets/img/web-design.jpg" alt="Sunset in the mountains">
